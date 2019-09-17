@@ -1,3 +1,5 @@
+
+@ -1,20 +1,4 @@
 /**
  * Hello module.
  *
@@ -17,4 +19,14 @@ function sayHello () {
   return 'Hello, World!'
 }
 
-exports.sayHello = sayHello
+const sayHello = sayHello
+
+
+console.log(tellType('dog jumped over the moon'))
+console.log(tellType(true))
+console.log(tellType(42))
+console.log(tellType({}))
+console.log(tellType([]))
+console.log(tellType(null))
+console.log(tellType(function () {}))
+console.log(tellType())

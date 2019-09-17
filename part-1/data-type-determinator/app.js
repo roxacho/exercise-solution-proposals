@@ -8,9 +8,11 @@
 
 'use strict'
 
+
+
 const determinator = require('./src/determinator')
 
-console.log(determinator.tellType('Hasta la vista, baby.'))
+console.log(determinator.tellType('dog jumped over the moon'))
 console.log(determinator.tellType(true))
 console.log(determinator.tellType(42))
 console.log(determinator.tellType({}))
@@ -18,3 +20,5 @@ console.log(determinator.tellType([]))
 console.log(determinator.tellType(null))
 console.log(determinator.tellType(function () {}))
 console.log(determinator.tellType())
+
+
